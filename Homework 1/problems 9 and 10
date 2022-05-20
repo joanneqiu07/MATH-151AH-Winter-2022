@@ -1,1 +1,16 @@
+Problem 9. Implement, in MATLAB, the following methods for root finding:
+• Fixed point iteration with g(x) = x − αf(x), for various values of α. • Newton’s method.
+• The secant method.
+• Steffensen’s method.
+Run each algorithm for 100 iterations. Use your algorithms to find roots for the following functions:
+1. f(x)=10x2 −4x−5withx0 =−1.
+2. f(x)=x4 −x3 −3x2 +5x−2withx0 =1.3. 
+3. f(x) = sin(x) − log(x) with x0 = 2.
 
+
+Problem 10. In class we established that the problem of finding x∗ = argminx∈Rdf(x) is (more-or-less) equivalent to the problem of finding a root of f′(x). 
+We shall call x∗ a minimizer of f(x). For all parts of this question, let f (x) = 10x2 − 4x + 5.
+1. Use the fixed point iteration algorithm for g(x) = x − αf′(x) to find an approximate minimizer of f(x). 
+   Your stopping criterion should check whether f(xn) < tol, where tol = 10−5. Try α = 1/100, 1/20 and 2. 
+   Which value yields the fastest convergence?
+2. Use Newton’s method for the root-finding problem f′(x) = 0 to find an approximate minimizer of f(x).
