@@ -1,1 +1,7 @@
-
+Problem 6. Write code that implements the following algorithms for solving linear systems itearatively: 
+   Jacobi’s method, the Gauss-Seidel method and the Successive Over Relaxation method.
+1. Use all three to solve the linear system Ax⋆ = b where A and b are given below.
+   Make a plot of the logarithm of the errors, log(∥xk −x⋆∥2) (you may use the fact
+   x⋆ = [1 2 3 4] against the number of iterations (for all three methods).
+2. Experiment with different values of the parameter ω in the SOR method. Are there
+any values for which the method doesn’t converge?
