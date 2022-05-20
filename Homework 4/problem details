@@ -1,0 +1,9 @@
+Problem 4. Implement the composite Simpson’s rule and use it to evaluate the following definite integrals, using the indicated value of m.
+
+Problem 5. The fourth Legendre polynomial is Q4(x) = x4 − 6x2 + 3 . 7 35
+1. Use a root-finding algorithm of your choice to approximate the Gaussian quadrature nodes x1, x2, x3 and x4 by approximating the roots of Q4(x). 
+   Hint: You might want to use the fol lowing initializations for your root-finding schemes: −0.9, −0.3, 0.3 and 0.9. 
+   Also, you can use a built-in root-finding algorithm in Matlab or Python; you don’t need to code your own.
+2. Now, determine the corresponding weights α1, α2, α3 and α4.
+3. Using the Gaussian quadrature points and weights computed in parts (a) and (b), implement 4 point Gaussian quadrature. 
+   Use it to evaluate the same three definite integrals as in Question 4.
