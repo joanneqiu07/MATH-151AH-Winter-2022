@@ -1,0 +1,18 @@
+Problem 2e. Now, implement the fixed point iteration method and Newton’s method for solving F(x) = 0. For Newton’s method, 
+you may use a built-in solver to solve JF|x(k)h = −F(x(k)) at each step. You may need to take some care with the choice of x(0) , α and so on. 
+As part of your answer plot:
+• ∥x(k)∥2 for both methods.
+• Plot the actual points x(1), x(2), . . . in the plane.
+
+Problem 3. Let F (x) be as in Question 2. Implement Newton’s method using Jacobi iteration to solve JF |x(k) n(k) = F(x(k)). 
+Experiment with using different numbers of iterations of Jacobi’s method within each itera- tion of Newton’s method. 
+What is the smallest number of Jacobi iterations you tried that converges?
+
+Problem 6. Write code that implements the Newton and Lagrange interpolation scheme. Your code should satisfy
+the following specifications.
+• A user can specify which scheme they want to use, Newton or Lagrange.
+• It can accept any set of distinct data points {(xi,yi)}.
+• Given the data, the code computes and stores the interpolating polynomial L(x) in some fashion. 
+• The user can then specify any other point, x, and the code will evaluate and return L(x).
+In Table 1 values sampled at equally spaced points from the function f(x) = xe2x are given. 
+Use this data and your code to plot the graph y = L9f(x) on the interval [−1,1]. On the same set of axes also plot the graph of y = f(x).
